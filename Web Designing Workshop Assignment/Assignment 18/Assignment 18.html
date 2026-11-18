@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 18</title>
+</head>
+<body>
+    <div class="page-container">
+    <header align="center">
+        ABC College Admission 2026
+    </header>
+
+    <div class="content">
+        <h2>Courses and Fees</h2>
+        
+        <div class="table-title" align="center">Available Courses</div>
+        <table border="1" align="center" cellpadding="10" cellspacing="0">
+            <tr align="center" bgcolor="#f2f2f2">
+                <th>Course</th>
+                <th>Seats</th>
+                <th>Fees</th>
+            </tr>
+            <tr>
+                <td>B.Tech CSE</td>
+                <td>120</td>
+                <td>₹90,000</td>
+            </tr>
+            <tr>
+                <td>BCA</td>
+                <td>60</td>
+                <td>₹45,000</td>
+            </tr>
+        </table>
+
+        <form>
+            <fieldset>
+                <legend>Application Form</legend>
+                
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <br>
+                    <input type="text" id="name">
+                </div>
+                <br>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email">
+                </div>
+                <br>
+
+                <div class="form-group">
+                    <label for="course">Course:</label>
+                    <br>
+                    <select id="course">
+                        <option value="btech" selected>B.Tech CSE</option>
+                        <option value="bca">BCA</option>
+                    </select>
+                </div>
+                <br>
+
+                <div class="form-group">
+                    <label for="statement">Statement:</label>
+                    <br>
+                    <textarea id="statement"></textarea>
+                </div>
+                <br>
+
+                <button type="submit">Apply</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer align="center">
+        &copy; 2026 ABC College
+    </footer>
+</div>
+</body>
+</html>
